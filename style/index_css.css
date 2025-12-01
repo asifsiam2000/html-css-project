@@ -198,3 +198,140 @@ body {
 #footer-left p{
     color: #5B5757;
 }
+
+/* commom section  */
+.hidden {
+    display: none;
+}
+/* responsive part  */
+
+
+/* laptop device 1025 - 1200 */
+@media screen and (max-width:1200px) {
+    #hero-content h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+    }
+    #hero-content p {
+        font-size: 14px;
+    }
+    .footer-left p{
+        font-size: 17px;
+        padding-top: 5px;
+    }
+}
+/* tablate device  769 - 1024*/
+@media screen and (max-width:1024px) {
+    .hero-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* gap: 20px; */
+    }
+    #hero-continer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #hero-content {
+        padding-bottom: 0px;
+    }
+    #hero-img img {
+        width: 350px;
+    }
+    .card {
+        width: 100%;
+    }
+    .card-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-img img{
+        width: 350px;
+    }
+    .project-content * {
+        margin-bottom: 10px;
+        margin: 10px;
+    }
+    .project-content p {
+        font-size: 14px;
+    }
+    .project-content .btn {
+        margin: 0px;
+    }
+   .footer-left p{
+        font-size: 15px;
+    }
+    
+}
+/* large androde device  569 - 768*/
+@media screen and (max-width:768px) {
+    .heading{
+        margin-bottom: 10px;
+    }
+    .heading h2 {
+        font-size: 35px;
+    }
+    .project-img img{
+        width: 100%;
+    }
+    .project-card {
+        padding: 30px;
+    }
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    #skill {
+        padding-bottom: 20px;
+    }
+    .footer-right {
+        display: flex;
+    }
+    .footer-content {
+        padding: 10px 0px;
+    }
+    .footer-left p{
+        font-size: 12px;
+        padding-top: 7px;
+    }
+}
+/* androde device  320 - 568*/
+@media screen and (max-width:568px) {
+    .continer {
+      width: 98%;
+      margin:0 auto;
+    }
+    #hero-img img {
+        width: 100%;
+    }
+    #hero-continer {
+        padding-right: 0px;
+    }
+    .heading h2 {
+        font-size: 22px;
+    }
+    .heading h4 {
+        font-size: 15px;
+    }
+    .project-card {
+        padding: 10px;
+    }
+    .company-card {
+        flex-direction: column;
+    }
+    .brands {
+        padding: 10px;
+        text-align: center;
+    }
+    .company-card img {
+        width: 100px;
+        max-width: 150px;
+    }
+    .heading h2 {
+        font-size: 20px;
+    }
+    .footer-left p{
+        font-size: 10px;
+    }
+}
